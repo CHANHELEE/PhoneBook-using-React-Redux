@@ -1,1 +1,1 @@
-# PhoneBook-using-Redux
+# PhoneBook-using-React-Redux
