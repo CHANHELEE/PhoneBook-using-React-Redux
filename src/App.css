@@ -1,0 +1,22 @@
+.title{
+  text-align: center;
+}
+
+.list{
+  margin-top: 31px;
+  margin-left: 30px;
+}
+
+.logo{
+  font-size: 45px;
+  opacity: 70%;
+}
+
+.list-each{
+  border-bottom: 1px solid grey;
+  padding: 9px;
+}
+
+.num{
+  border-bottom: 1px solid grey;
+}
