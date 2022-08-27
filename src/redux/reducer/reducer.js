@@ -1,5 +1,6 @@
 let initialState={
-  list:[]
+  list:[],
+  findList:[]
 }
 
 function reducer(state=initialState,action){
@@ -10,6 +11,11 @@ function reducer(state=initialState,action){
     case "DELETE":
       state.list.splice(action.payload.id-1,1)
       return {...state,list:[...state.list]}
+
+    case "FIND":
+      action.payload.index.forEach((index)=> state.findList.push(state.list[index]));
+      console.log(state.findList)
+      return {...state,list:state.findList}
 
     default:
       return {...state}

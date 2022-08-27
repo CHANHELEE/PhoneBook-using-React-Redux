@@ -23,7 +23,6 @@ const RegisterForm = () => {
           <Form.Label>이름</Form.Label>
           <Form.Control type="text" name="name" placeholder="이름을 입력해 주세요" required />
           <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
           </Form.Text>
         </Form.Group>
 

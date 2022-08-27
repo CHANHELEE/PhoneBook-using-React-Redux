@@ -22,7 +22,7 @@ const List = ({member}) => {
         </Col>
 
         <Col lg={2}>
-          <Button onClick={deleteMember}>Delete</Button>
+          <Button onClick={deleteMember}>삭제</Button>
         </Col>
       </Row>
     </div>
